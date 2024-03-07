@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.container__botao {
+    display: none;
+}
+
 .cabecalho__menu-hamburger {
     width: 24px;
     height: 24px;
@@ -38,6 +42,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
