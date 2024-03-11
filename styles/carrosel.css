@@ -1,9 +1,4 @@
 
-
-.carrosel {
-
-}
-
 .carrosel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -39,6 +34,7 @@
     border: 10px;
     margin: 1em;
     padding: 1em;
+    border-radius: 8px;
 }
 
 .card__desc {
@@ -57,10 +53,16 @@
 }
 
 .botoes__item {
-    margin: 0.5em;
+    margin: 0 0.5em;
 
 }    
+
+.desc__img {
+    margin: 1em;
+}
+
 .desc__titulo {
+    
     color: var(--laranja);
     font-weight: 700;
 
@@ -75,12 +77,20 @@
 
 .desc__texto {
     font-size: 14px;
+
 }
 
 .botoes__ancora {
     background-color: var(--laranja);
-    padding: 1em 2.2em;
+    margin-top: 0.8em;
+    padding: 0.7em 2.2em 0.2em 2.2em;
     color: var(--branco);
     font-weight: 700;
+    border-radius: 1px;
     text-decoration: none;
+}
+
+.desc__img__estrela {
+    margin: 0;
+    padding: 1em 0;
 }
