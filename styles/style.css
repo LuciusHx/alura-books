@@ -4,6 +4,10 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrosel.css");
+@import url("topico.css");
+@import url("contato.css");
+@import url("rodape.css");
+
 
 :root {
     --cor-de-fundo: #EBECEE;
