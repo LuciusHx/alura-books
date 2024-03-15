@@ -35,3 +35,21 @@
     background: url("../uploads/Pesquisa.svg") no-repeat;
     background-position: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+    .topicos__lista {
+        margin: auto;
+    }
+
+    .banner__pesquisa {
+        width: 60%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 6em;
+    }
+
+}
